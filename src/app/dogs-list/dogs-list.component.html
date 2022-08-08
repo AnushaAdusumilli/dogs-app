@@ -1,0 +1,9 @@
+<section class="dogs-list" *ngIf="randomDogs">
+    <figure class="dog-figure" *ngFor="let randomDog of randomDogs">
+      <img src="{{ randomDog.url }}" alt="{{ randomDog.bread }}" />
+      <figcaption>
+        <a target="_blank" href="{{ randomDog.url }}">{{ randomDog.bread }}</a>
+      </figcaption>
+    </figure>
+  </section>
+  

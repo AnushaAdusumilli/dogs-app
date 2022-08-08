@@ -1,0 +1,13 @@
+.dogs-list {
+    display: flex;
+    overflow-x: scroll;
+    .dog-figure {
+      img {
+        height: 200px;
+      }
+      figcaption {
+        text-transform: capitalize;
+      }
+    }
+  }
+  
